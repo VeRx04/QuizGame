@@ -59,13 +59,14 @@ Hier finden Sie eine Schritt-für-Schritt-Anleitung, um das Projekt auf Ihrem Re
    - Starte den **XAMPP-Installer** und folge den Installationsanweisungen.  
    - **Hinweis:** Bei der Installation können Sie alles standardmäßig lassen.
 
-2. **XAMPP starten**  
+2. **XAMPP starten**
+   - **Hinweis:** Falls XAMPP nicht standardmäßig konfiguriert ist, sorgen Sie dafür, dass der Port 3306 genutzt wird.
    - Öffne **XAMPP Control Panel**  
    - Klicke auf **Start** bei:  
      - ✅ **Apache** (wird für phpMyAdmin benötigt)  
      - ✅ **MySQL** (wird für die Datenbank benötigt)  
 
-3. **phpMyAdmin öffnen**  
+4. **phpMyAdmin öffnen**  
    - Öffne einen Browser und rufe **phpMyAdmin** auf:  
      🔗 [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) 
 
@@ -127,13 +128,3 @@ Hier finden Sie eine Schritt-für-Schritt-Anleitung, um das Projekt auf Ihrem Re
      mvn clean package
      java -jar target/quiz-app-maven-0.0.1-SNAPSHOT.jar
      ```
-
----
-
-#### Option 2: **Manuell mit Java kompilieren**  
-
-Falls Sie das Projekt manuell starten möchten, können Sie es mit **javac** kompilieren:
-
-```bash
-javac -d bin src/main/java/com/quiz/main/Main.java
-java -cp bin com.quiz.main.Main
