@@ -118,12 +118,7 @@ Hier finden Sie eine Schritt-für-Schritt-Anleitung, um das Projekt auf Ihrem Re
      mvn -version
      ```
 
-2. **Projekt kompilieren & starten**  
-   - Wechsle ins Projektverzeichnis:  
-     ```bash
-     cd QuizGame
-     ```
-   - **Build erstellen & starten**  
+2. **Projekt kompilieren & starten**   
      ```bash
      mvn clean package
      java -jar target/quiz-app-maven-0.0.1-SNAPSHOT.jar
