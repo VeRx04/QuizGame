@@ -123,3 +123,16 @@ Hier finden Sie eine Schritt-für-Schritt-Anleitung, um das Projekt auf Ihrem Re
      mvn clean package
      java -jar target/quiz-app-maven-0.0.1-SNAPSHOT.jar
      ```
+
+## Technologien
+
+### **Das Projekt wurde mit den folgenden Technologien und Bibliotheken entwickelt:**
+
+- Programmiersprache: Java 21
+- Build-Management: Maven
+- GUI: Swing
+- Datenbank: MySQL mit JDBC
+- Logging: SLF4J
+- Testing: JUnit 5
+- Compiler: Maven Compiler Plugin (Java 21)
+- Packaging: Maven Shade Plugin
