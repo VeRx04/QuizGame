@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  */
 public class ConnectionManager {
     private static final Logger logger = LoggerFactory.getLogger(ConnectionManager.class);
-    private static final String URL = "jdbc:mysql://localhost:3306/quiz";
+    private static final String URL = "jdbc:mysql://localhost:3307/quiz";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
 
