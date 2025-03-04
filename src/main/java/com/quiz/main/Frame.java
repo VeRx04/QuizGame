@@ -39,7 +39,7 @@ public class Frame extends JFrame {
 
     public Frame() {
         super(Config.WINDOW_TITLE);
-        setIconImage(new ImageIcon(getClass().getClassLoader().getResource(Resources.APP_ICON)).getImage());
+        setIconImage(new ImageIcon(getClass().getResource(Resources.APP_ICON)).getImage());
 
         setSize(Config.WINDOW_SIZE);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
