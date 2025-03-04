@@ -108,7 +108,7 @@ Hier finden Sie eine Schritt-für-Schritt-Anleitung, um das Projekt auf Ihrem Re
 
 ### Projekt starten
 
-#### Option 1: **Mit Maven**  
+#### **Maven ist erforderlich**  
 
 1. **Maven installieren (falls nicht vorhanden)**  
    - Lade **Maven** von [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi) herunter  
