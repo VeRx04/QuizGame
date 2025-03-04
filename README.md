@@ -133,6 +133,5 @@ Hier finden Sie eine Schritt-für-Schritt-Anleitung, um das Projekt auf Ihrem Re
 - GUI: Swing
 - Datenbank: MySQL mit JDBC
 - Logging: SLF4J
-- Testing: JUnit 5
 - Compiler: Maven Compiler Plugin
 - Packaging: Maven Shade Plugin
