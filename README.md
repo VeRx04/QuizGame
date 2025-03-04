@@ -1,4 +1,3 @@
-cat > README.md <<EOL
 # Java Quizspiel
 
 ## Inhalt
